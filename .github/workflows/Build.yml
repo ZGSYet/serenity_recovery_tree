@@ -79,7 +79,7 @@ jobs:
     # Copies the contents of the current repository (the device tree) into the correct path within the AOSP source.
     - name: Copy device tree
       run: |
-        mkdir -p device/infinix/tssi
+        mkdir -p device/xiaomi/missi
         rsync -a --exclude='.git/' --exclude='workspace/' ${{ github.workspace }}/ device/xiaomi/missi
       working-directory: ${{ steps.workspace.outputs.path }}
 
