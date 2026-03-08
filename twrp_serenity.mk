@@ -13,12 +13,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from missi device
-$(call inherit-product, device/xiaomi/missi/device.mk)
+$(call inherit-product, device/xiaomi/serenity/device.mk)
 
-PRODUCT_DEVICE := missi
-PRODUCT_NAME := twrp_missi
+PRODUCT_DEVICE := serenity
+PRODUCT_NAME := twrp_serenity
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := missi
+PRODUCT_MODEL := serenity
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
