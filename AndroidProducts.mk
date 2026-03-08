@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_missi.mk
+    $(LOCAL_DIR)/twrp_serenity.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_missi-user \
-    twrp_missi-userdebug \
-    twrp_missi-eng
+    twrp_serenity-eng \
